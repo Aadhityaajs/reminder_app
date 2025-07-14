@@ -57,7 +57,7 @@ class TwilioVoiceAPI:
                   to_number: str, 
                   from_number: str, 
                   message: str, 
-                  voice: str = "alice") -> Optional[str]:
+                  voice: str = "man") -> Optional[str]:
         """
         Make a voice call using Twilio
         

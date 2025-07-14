@@ -1,40 +1,23 @@
 [
     {
-        "type": "meeting",
-        "note": "aadhi birthday",
-        "date": "2004-07-12",
-        "time": "14:30",
-        "created_at": "2025-07-14 14:46:47"
-    },
-    {
         "type": "Birthday",
+        "recurring": "yearly",
         "note": "aadhi",
-        "date": "2004-07-12",
-        "time": "12:00",
-        "created_at": "2025-07-14 14:47:56"
-    },
-    {
-        "type": "Birthday",
-        "recurring": "yearly",
-        "note": "Aadhi",
-        "date": "2004-07-12",
-        "time": "23:30",
-        "reminder_type": "previous_day",
-        "created_at": "2025-07-14 14:58:14"
-    },
-    {
-        "type": "Anniversary",
-        "recurring": "yearly",
-        "note": "Aadhi",
-        "date": "2025-07-15",
-        "time": "15:5",
-        "created_at": "2025-07-14 15:03:55"
+        "date": "2025-07-14",
+        "time": "21:40",
+        "created_at": "2025-07-14 20:39:48",
+        "reminded": true,
+        "id": "1752505788843",
+        "last_reminded": "2025-07-14"
     },
     {
         "type": "Meeting",
-        "note": "Team meeting",
+        "note": "Demo",
         "date": "2025-07-14",
-        "time": "15:10",
-        "created_at": "2025-07-14 15:06:38"
+        "time": "21:43",
+        "created_at": "2025-07-14 21:42:15",
+        "reminded": true,
+        "id": "1752509535832",
+        "last_reminded": "2025-07-14"
     }
 ]

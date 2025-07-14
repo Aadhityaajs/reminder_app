@@ -2,9 +2,9 @@
     "ok": true,
     "result": [
         {
-            "update_id": 550791531,
-            "callback_query": {
-                "id": "8354048161485809384",
+            "update_id": 550791639,
+            "message": {
+                "message_id": 451,
                 "from": {
                     "id": 1945078410,
                     "is_bot": false,
@@ -13,55 +13,15 @@
                     "username": "Aadhity",
                     "language_code": "en"
                 },
-                "message": {
-                    "message_id": 262,
-                    "from": {
-                        "id": 7989138426,
-                        "is_bot": true,
-                        "first_name": "my_reminder_bot",
-                        "username": "all_event_reminder_bot"
-                    },
-                    "chat": {
-                        "id": 1945078410,
-                        "first_name": "Aadhityaa",
-                        "last_name": "Selvakumr",
-                        "username": "Aadhity",
-                        "type": "private"
-                    },
-                    "date": 1752486049,
-                    "text": "\ud83d\udccb Event Manager\nSelect an option:",
-                    "entities": [
-                        {
-                            "offset": 3,
-                            "length": 13,
-                            "type": "bold"
-                        }
-                    ],
-                    "reply_markup": {
-                        "inline_keyboard": [
-                            [
-                                {
-                                    "text": "\u2795 Add New Event",
-                                    "callback_data": "add_event"
-                                }
-                            ],
-                            [
-                                {
-                                    "text": "\ud83d\udcc5 View Today's Events",
-                                    "callback_data": "today_events"
-                                }
-                            ],
-                            [
-                                {
-                                    "text": "\ud83d\uddd1\ufe0f Remove Event",
-                                    "callback_data": "remove_event"
-                                }
-                            ]
-                        ]
-                    }
+                "chat": {
+                    "id": 1945078410,
+                    "first_name": "Aadhityaa",
+                    "last_name": "Selvakumr",
+                    "username": "Aadhity",
+                    "type": "private"
                 },
-                "chat_instance": "-8980706393938507510",
-                "data": "remove_event"
+                "date": 1752509534,
+                "text": "21:43"
             }
         }
     ]
