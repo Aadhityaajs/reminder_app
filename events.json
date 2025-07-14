@@ -1,0 +1,40 @@
+[
+    {
+        "type": "meeting",
+        "note": "aadhi birthday",
+        "date": "2004-07-12",
+        "time": "14:30",
+        "created_at": "2025-07-14 14:46:47"
+    },
+    {
+        "type": "Birthday",
+        "note": "aadhi",
+        "date": "2004-07-12",
+        "time": "12:00",
+        "created_at": "2025-07-14 14:47:56"
+    },
+    {
+        "type": "Birthday",
+        "recurring": "yearly",
+        "note": "Aadhi",
+        "date": "2004-07-12",
+        "time": "23:30",
+        "reminder_type": "previous_day",
+        "created_at": "2025-07-14 14:58:14"
+    },
+    {
+        "type": "Anniversary",
+        "recurring": "yearly",
+        "note": "Aadhi",
+        "date": "2025-07-15",
+        "time": "15:5",
+        "created_at": "2025-07-14 15:03:55"
+    },
+    {
+        "type": "Meeting",
+        "note": "Team meeting",
+        "date": "2025-07-14",
+        "time": "15:10",
+        "created_at": "2025-07-14 15:06:38"
+    }
+]

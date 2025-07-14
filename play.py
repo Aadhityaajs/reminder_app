@@ -1,0 +1,125 @@
+# import json
+# import time
+# data = {
+#     "ok": True,
+#     "result": [
+#         {
+#             "update_id": 550791395,
+#             "message": {
+#                 "message_id": 33,
+#                 "from": {
+#                     "id": 1945078410,
+#                     "is_bot": False,
+#                     "first_name": "Aadhityaa",
+#                     "last_name": "Selvakumr",
+#                     "username": "Aadhity",
+#                     "language_code": "en"
+#                 },
+#                 "chat": {
+#                     "id": 1945078410,
+#                     "first_name": "Aadhityaa",
+#                     "last_name": "Selvakumr",
+#                     "username": "Aadhity",
+#                     "type": "private"
+#                 },
+#                 "date": 1752474228,
+#                 "text": "/start",
+#                 "entities": [
+#                     {
+#                         "offset": 0,
+#                         "length": 6,
+#                         "type": "bot_command"
+#                     }
+#                 ]
+#             }
+#         },
+#         {
+#             "update_id": 550791396,
+#             "message": {
+#                 "message_id": 41,
+#                 "from": {
+#                     "id": 1945078410,
+#                     "is_bot": False,
+#                     "first_name": "Aadhityaa",
+#                     "last_name": "Selvakumr",
+#                     "username": "Aadhity",
+#                     "language_code": "en"
+#                 },
+#                 "chat": {
+#                     "id": 1945078410,
+#                     "first_name": "Aadhityaa",
+#                     "last_name": "Selvakumr",
+#                     "username": "Aadhity",
+#                     "type": "private"
+#                 },
+#                 "date": 1752475737,
+#                 "text": "Hi"
+#             }
+#         },
+#         {
+#             "update_id": 550791397,
+#             "message": {
+#                 "message_id": 42,
+#                 "from": {
+#                     "id": 1945078410,
+#                     "is_bot": False,
+#                     "first_name": "Aadhityaa",
+#                     "last_name": "Selvakumr",
+#                     "username": "Aadhity",
+#                     "language_code": "en"
+#                 },
+#                 "chat": {
+#                     "id": 1945078410,
+#                     "first_name": "Aadhityaa",
+#                     "last_name": "Selvakumr",
+#                     "username": "Aadhity",
+#                     "type": "private"
+#                 },
+#                 "date": 1752475745,
+#                 "text": "Hi"
+#             }
+#         },
+#         {
+#             "update_id": 550791398,
+#             "message": {
+#                 "message_id": 44,
+#                 "from": {
+#                     "id": 1945078410,
+#                     "is_bot": False,
+#                     "first_name": "Aadhityaa",
+#                     "last_name": "Selvakumr",
+#                     "username": "Aadhity",
+#                     "language_code": "en"
+#                 },
+#                 "chat": {
+#                     "id": 1945078410,
+#                     "first_name": "Aadhityaa",
+#                     "last_name": "Selvakumr",
+#                     "username": "Aadhity",
+#                     "type": "private"
+#                 },
+#                 "date": 1752475758,
+#                 "text": "Hi"
+#             }
+#         }
+#     ]
+# }
+
+
+# time.sleep(5)
+
+
+# with open("demo.json", "w") as file:
+#     json.dump({}, file, indent=4)
+
+
+# time.sleep(5)
+
+
+# with open("demo.json", "w") as file:
+#     json.dump(data, file, indent=4)
+
+
+import os, json
+
+print(os.environ["BOT_TOKEN"], os.environ["CHAT_ID"])
