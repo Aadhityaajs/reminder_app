@@ -28,8 +28,8 @@ class TwilioVoiceAPI:
             account_sid: Twilio Account SID (optional, will use env var if not provided)
             auth_token: Twilio Auth Token (optional, will use env var if not provided)
         """
-        self.account_sid = account_sid or os.environ.get("TWILIO_ACCOUNT_SID")
-        self.auth_token = auth_token or os.environ.get("TWILIO_AUTH_TOKEN")
+        self.account_sid = "AC6b387d783d46f4f4952c29063bf1dbdd"
+        self.auth_token = "d9765bb3e15eda9ccf1cdfa60440b972"
         self.client = None
         self.config_file = "voice_config.json"
         
